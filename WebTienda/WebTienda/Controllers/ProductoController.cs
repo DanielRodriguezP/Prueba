@@ -62,5 +62,21 @@ namespace WebTienda.Controllers
             var result = _repo.EliminarProducto(sku);
             return Json(new { data = result }, JsonRequestBehavior.AllowGet);
         }
+        public ActionResult ObtenerProductosId()
+        {
+            int IdTienda = 234;
+            List<PRODUCTO> _list = _repo.ObtenerProductosId(IdTienda);
+            var result = _list.Select(x => new ProductoView
+            {
+                SKU = x.SKU,
+                NOMBRE = x.NOMBRE,
+                DESCRIPCION = x.DESCRIPCION,
+                VALOR = x.VALOR,
+                IdTienda = x.TIENDA
+            });
+
+            return Json(new { data = result }, JsonRequestBehavior.AllowGet);
+        }
+
     }
 }

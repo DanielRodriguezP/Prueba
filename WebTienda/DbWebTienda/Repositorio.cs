@@ -18,6 +18,12 @@ namespace DbWebTienda
             List<PRODUCTO> ListaProductos = _contex.PRODUCTO.ToList();
             return ListaProductos;
         }
+        //Consultar por Id tienda
+        public List<PRODUCTO> ObtenerProductosId(int IdTienda)
+        {
+            List<PRODUCTO> listaProductos = _contex.PRODUCTO.Where(x => x.TIENDA == IdTienda).ToList();
+            return listaProductos;
+        }
         //Obtiene la lista del id y nombre de las tiendas
         public List<TIENDA> GetTipoTienda() {
             List<TIENDA> _lista = _contex.TIENDA.ToList();

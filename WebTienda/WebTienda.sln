@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTienda", "WebTienda\WebT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbWebTienda", "DbWebTienda\DbWebTienda.csproj", "{751AF83A-332D-4AD6-8CA5-585A00087DD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSProducto", "WSProducto\WSProducto.csproj", "{27DBF794-736B-4CFB-9CED-66A3A6E0CE89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{751AF83A-332D-4AD6-8CA5-585A00087DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{751AF83A-332D-4AD6-8CA5-585A00087DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{751AF83A-332D-4AD6-8CA5-585A00087DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27DBF794-736B-4CFB-9CED-66A3A6E0CE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DBF794-736B-4CFB-9CED-66A3A6E0CE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DBF794-736B-4CFB-9CED-66A3A6E0CE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DBF794-736B-4CFB-9CED-66A3A6E0CE89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

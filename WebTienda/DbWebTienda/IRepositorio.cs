@@ -8,5 +8,6 @@ namespace DbWebTienda
         List<TIENDA> GetTipoTienda();
         Respuesta GuardarProducto(PRODUCTO Producto);
         Respuesta EliminarProducto(int sku);
+        List<PRODUCTO> ObtenerProductosId(int IdTienda);
     }
 }
